@@ -3,6 +3,33 @@
   <channel>
     <title>Pathway</title>
     <item>
+        <title>0.0.3</title>
+        <pubDate>Fri, 20 Mar 2026 13:01:28 +0000</pubDate>
+        <sparkle:version>3</sparkle:version>
+        <sparkle:shortVersionString>0.0.3</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[
+            <h2>What's New in 0.0.3</h2>
+            <p>Overhauled note content retrieval to handle embedded images efficiently. Notes with images previously returned ~340KB of base64 data, causing AI agents to fail. Now 16 total tools.</p>
+            <h3>New Tools</h3>
+            <ul>
+                <li><strong>get_note_text</strong> — Plain text content, no HTML or images. Fast and lightweight (~3KB vs ~340KB).</li>
+                <li><strong>get_note_attachments</strong> — List image/file metadata (names, dates, count) without loading data.</li>
+                <li><strong>get_note_image</strong> — Retrieve images as native MCP image content blocks for multimodal agents.</li>
+            </ul>
+            <h3>Improved</h3>
+            <ul>
+                <li><strong>get_note_content</strong> now strips base64 image data (98.4% size reduction), replacing with [embedded image] placeholders while preserving HTML formatting.</li>
+                <li>MCP server now supports mixed text + image content arrays in tool responses.</li>
+            </ul>
+        ]]></description>
+        <enclosure
+            url="https://github.com/wuwuwu/pathway-releases/releases/download/v0.0.3/pathway-0.0.3.dmg"
+            length="1164921"
+            type="application/octet-stream"
+            sparkle:edSignature="jHY12dawIZmhRwexBEcFoEama/0Yi40YGykBrEdg/u8rGWrRB1/K05pR3ld3w+k82lJMIahceRljcoJplWIFCQ==" />
+    </item>
+    <item>
         <title>0.0.2</title>
         <pubDate>Fri, 20 Mar 2026 03:27:26 +0000</pubDate>
         <sparkle:version>2</sparkle:version>
