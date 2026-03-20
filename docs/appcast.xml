@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Pathway</title>
+    <item>
+        <title>0.0.2</title>
+        <pubDate>Fri, 20 Mar 2026 03:27:26 +0000</pubDate>
+        <sparkle:version>2</sparkle:version>
+        <sparkle:shortVersionString>0.0.2</sparkle:shortVersionString>
+        <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+        <description><![CDATA[
+            <h2>What's New in 0.0.2</h2>
+            <ul>
+                <li>13 Apple Notes tools with branded names</li>
+                <li>Date-based note filtering</li>
+                <li>Sparkle auto-updates</li>
+            </ul>
+        ]]></description>
+        <enclosure
+            url="https://github.com/wuwuwu/pathway-releases/releases/download/v0.0.2/pathway-0.0.2.dmg"
+            length="1163163"
+            type="application/octet-stream"
+            sparkle:edSignature="mXgPYIQu2jZi7fQs684cbJxBSiL5R4Pl/Y6mGuvlik5Ho9tUd8ZvMaDeY98zt//Jx40doZ34Fw/kq0sTYYL1DQ==" />
+    </item>
+  </channel>
+</rss>
